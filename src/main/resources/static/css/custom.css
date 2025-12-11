@@ -272,3 +272,10 @@ select:focus {
     display: none;
   }
 }
+button:focus,
+input:focus,
+a:focus,
+textarea:focus {
+    outline: 3px solid #00aaff;
+    outline-offset: 3px;
+}
