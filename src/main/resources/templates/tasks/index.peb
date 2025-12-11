@@ -49,7 +49,6 @@
             <small id="title-hint">Keep it short and specific.</small>
             {% if error == "title" %}
             <p id="title-error" class="error-message role="alert">
->
                 {% if msg == "too_long" %}Title is too long (max 200 characters){% else %}Title is required. Please enter at least one character.{% endif %}
             </p>
             {% endif %}
